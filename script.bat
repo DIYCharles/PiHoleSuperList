@@ -30,14 +30,14 @@ for /d %%i in (%cd%\*) do (
     echo *************************************************************************
 )
 
-cd C:\DEV\blacklists\
-git clone https://github.com/blocklistproject/Lists.git
-cd C:\DEV\blacklists\Lists\
-git pull
-cd C:\DEV\blacklists\Lists\alt-version\
-TYPE ads-nl.txt >> C:\DEV\blacklists\PiHoleSuperList\FINAL.TXT
-TYPE smart-tv-nl.txt >> C:\DEV\blacklists\PiHoleSuperList\FINAL.TXT
-TYPE tracking-nl.txt >> C:\DEV\blacklists\PiHoleSuperList\FINAL.TXT
+@REM cd C:\DEV\blacklists\
+@REM git clone https://github.com/blocklistproject/Lists.git
+@REM cd C:\DEV\blacklists\Lists\
+@REM git pull
+@REM cd C:\DEV\blacklists\Lists\alt-version\
+@REM TYPE ads-nl.txt >> C:\DEV\blacklists\PiHoleSuperList\FINAL.TXT
+@REM TYPE smart-tv-nl.txt >> C:\DEV\blacklists\PiHoleSuperList\FINAL.TXT
+@REM TYPE tracking-nl.txt >> C:\DEV\blacklists\PiHoleSuperList\FINAL.TXT
 
 cd C:\DEV\blacklists\PiHoleSuperList\
 echo ---sorting---

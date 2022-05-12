@@ -1,6 +1,4 @@
 https://github.com/kboghdady/youTube_ads_4_pi-hole.git
-https://github.com/chadmayfield/my-pihole-blocklists.git
-https://github.com/JavanXD/ya-pihole-list.git
 https://github.com/Esox-Lucius/PiHoleblocklists.git
 https://github.com/Perflyst/PiHoleBlocklist.git
 
