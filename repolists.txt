@@ -1,12 +1,8 @@
 https://github.com/kboghdady/youTube_ads_4_pi-hole.git
 https://github.com/chadmayfield/my-pihole-blocklists.git
-https://github.com/justdomains/blocklists.git
 https://github.com/JavanXD/ya-pihole-list.git
-https://github.com/craiu/mobiletrackers.git
-https://github.com/durablenapkin/scamblocklist.git
-https://github.com/bmyjacks/adlists.git
-https://github.com/shoenig/donutdns.git
 https://github.com/Esox-Lucius/PiHoleblocklists.git
+https://github.com/Perflyst/PiHoleBlocklist.git
 
 
 

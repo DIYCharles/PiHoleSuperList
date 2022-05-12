@@ -15,7 +15,7 @@ Clear-Content C:\DEV\blacklists\PiHoleSuperList\FINAL.TXT
 
 echo ---moving back FINALSU to FINAL---
 
-Get-Content C:\DEV\blacklists\PiHoleSuperList\FINALSU.TXT | Foreach {"0.0.0.0" + $_}  | Sort-Object | Get-Unique > C:\DEV\blacklists\PiHoleSuperList\FINAL.TXT
+Get-Content C:\DEV\blacklists\PiHoleSuperList\FINALSU.TXT | Sort-Object | Get-Unique > C:\DEV\blacklists\PiHoleSuperList\FINAL.TXT
 
 echo ---clearing FINALSU file---
 
