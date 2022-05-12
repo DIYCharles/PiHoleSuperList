@@ -21,6 +21,10 @@ echo ---clearing FINALSU file---
 
 Clear-Content C:\DEV\blacklists\PiHoleSuperList\FINALSU.TXT
 
+cd C:\DEV\blacklists\PiHoleSuperList\
+
+.\gitpush.bat
+
 echo ---done--
 
 echo **************************************************

@@ -43,13 +43,7 @@ cd C:\DEV\blacklists\PiHoleSuperList\
 echo ---sorting---
 powershell .\sort.ps1
 
-for /F "tokens=2" %%i in ('date /t') do set mydate=%%i
-set mytime=%time%
-echo Current time is %mydate%:%mytime%
 
-git add -A
-git commit -am ""%mydate%:%mytime%""
-git push 
 
 @REM for /f "delims=" %%I in (FINAL.TXT) do findstr /X /C:"%%I" FINALSU.TXT >NUL ||(echo;%%I)>>FINALSU.TXT
 cd ..
