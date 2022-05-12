@@ -41,7 +41,6 @@ TYPE tracking-nl.txt >> C:\DEV\blacklists\PiHoleSuperList\FINAL.TXT
 
 cd C:\DEV\blacklists\PiHoleSuperList\
 echo ---sorting---
-
 powershell .\sort.ps1
 
 for /F "tokens=2" %%i in ('date /t') do set mydate=%%i
